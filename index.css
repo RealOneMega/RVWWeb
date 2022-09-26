@@ -723,7 +723,204 @@ input:focus, textarea:focus, select:focus
    height: 6px;
    z-index: 11;
 }
-@media only screen and (max-width: 1920px)
+@media only screen and (min-width: 1920px) and (max-width: 1920px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Shape2
+{
+   left: 0px;
+   top: 0px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
+#wb_Shape1
+{
+   left: 0px;
+   top: 0px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Image1
+{
+   left: 51px;
+   top: 11px;
+   width: 92px;
+   height: 52px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_MenuBar1
+{
+   left: 1129px;
+   top: 13px;
+   width: 747px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Image3
+{
+   left: 39px;
+   top: 113px;
+   width: 1070px;
+   height: 585px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 1129px;
+   top: 113px;
+   width: 707px;
+   height: 375px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 1129px;
+   top: 499px;
+   width: 707px;
+   height: 199px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 96px;
+   top: 582px;
+   width: 956px;
+   height: 72px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   left: 1165px;
+   top: 381px;
+   width: 635px;
+   height: 72px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image5
+{
+   left: 1260px;
+   top: 536px;
+   width: 197px;
+   height: 113px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   left: 1478px;
+   top: 543px;
+   width: 267px;
+   height: 93px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Shape3
+{
+   left: 39px;
+   top: 753px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Text1
+{
+   left: 39px;
+   top: 703px;
+   width: 267px;
+   height: 46px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image6
+{
+   left: 39px;
+   top: 768px;
+   width: 430px;
+   height: 200px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image7
+{
+   left: 495px;
+   top: 768px;
+   width: 430px;
+   height: 200px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image8
+{
+   left: 950px;
+   top: 768px;
+   width: 430px;
+   height: 200px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image9
+{
+   left: 1406px;
+   top: 768px;
+   width: 430px;
+   height: 200px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 1919px)
 {
 body
 {
