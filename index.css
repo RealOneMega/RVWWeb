@@ -291,7 +291,7 @@ input:focus, textarea:focus, select:focus
 }
 #Shape2
 {
-   width: 480px;
+   width: 481px;
    height: 75px;
 }
 #Shape3
@@ -429,7 +429,7 @@ input:focus, textarea:focus, select:focus
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 480px;
+   width: 481px;
    height: 75px;
    visibility: hidden;
    z-index: 1;
@@ -582,7 +582,7 @@ body
 #wb_Text1
 {
    left: 23px;
-   top: 731px;
+   top: 719px;
    width: 208px;
    height: 46px;
    visibility: visible;

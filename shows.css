@@ -398,7 +398,7 @@ input:focus, textarea:focus, select:focus
    height: 75px;
    z-index: 0;
 }
-@media only screen
+@media only screen and (min-width: 1920px)
 {
 body
 {
@@ -434,4 +434,7 @@ body
    display: inline;
    margin: 0;
 }
+}
+@media only screen and (max-width: 1919px)
+{
 }
