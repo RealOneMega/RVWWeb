@@ -443,7 +443,7 @@ input:focus, textarea:focus, select:focus
    height: 6px;
    z-index: 11;
 }
-@media only screen and (max-width: 1919px)
+@media only screen and (max-width: 480px) and (orientation: portrait)
 {
 body
 {
