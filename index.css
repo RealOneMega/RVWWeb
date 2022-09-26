@@ -573,7 +573,7 @@ input:focus, textarea:focus, select:focus
 }
 #Shape3
 {
-   width: 215px;
+   width: 185px;
    height: 6px;
 }
 #wb_Text3
@@ -719,7 +719,7 @@ input:focus, textarea:focus, select:focus
    position: absolute;
    left: 39px;
    top: 753px;
-   width: 215px;
+   width: 185px;
    height: 6px;
    z-index: 11;
 }
