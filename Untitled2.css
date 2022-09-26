@@ -4,6 +4,12 @@
    font-display: swap;
    src: url('Mont-HeavyDEMO.woff2') format('woff2');
 }
+@font-face
+{
+   font-family: "Gogh Extra Bold";
+   font-display: swap;
+   src: url('Gogh-ExtraBold.woff2') format('woff2');
+}
 h1, .h1
 {
    font-family: Arial;
