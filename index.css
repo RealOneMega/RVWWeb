@@ -41,11 +41,6 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    vertical-align: top;
 }
-#Shape1
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_Image3
 {
    vertical-align: top;
@@ -305,11 +300,11 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    color: #FFFFFF;
-   font-size: 37px;
+   font-size: 29px;
    font-family: "Mont Heavy DEMO";
    font-weight: normal;
    font-style: normal;
-   line-height: 51px;
+   line-height: 40px;
    text-align: left;
    text-decoration: none;
    white-space: nowrap;
@@ -353,11 +348,11 @@ input:focus, textarea:focus, select:focus
 {
    background-color: transparent;
    color: #FFFFFF;
-   font-size: 37px;
+   font-size: 29px;
    font-family: "Mont Heavy DEMO";
    font-weight: normal;
    font-style: normal;
-   line-height: 51px;
+   line-height: 40px;
    text-align: left;
    text-decoration: none;
    white-space: nowrap;
@@ -541,7 +536,7 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    text-decoration: none;
    color: #333333;
-   font-size: 37px;
+   font-size: 29px;
    font-family: "Mont Heavy DEMO";
    font-style: normal;
 }
@@ -562,6 +557,144 @@ input:focus, textarea:focus, select:focus
 {
    z-index: 1111 !important;
 }
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   box-shadow: none;
+}
+#PanelMenu1_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 0px solid #2E2E2E;
+   background-color: #3E3E3E;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a
+{
+   color: #F7F7F7;
+   border: 1px solid #000000;
+   border-radius: 0px;
+   background-color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+}
+#PanelMenu1_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 0px solid #2E2E2E;
+}
+#wb_PanelMenu1 a:hover
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   background-color: #3E3E3E;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-left: 50px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   left: 0px;
+   width: 50px;
+   height: 50px;
+   margin-top: -25px;
+   content: "\f0c9";
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 50px;
+   line-height: 50px;
+}
+#PanelMenu1
+{
+   line-height: 70px;
+   width: 20px;
+   height: 70px;
+   position: absolute;
+   z-index: 999;
+}
+#PanelMenu1-logo
+{
+   border-width: 0;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+}
+#PanelMenu1-logo img
+{
+   border-width: 0;
+   height: auto;
+   max-width: 100%;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Shape4
 {
    position: absolute;
@@ -570,7 +703,7 @@ input:focus, textarea:focus, select:focus
    width: 192px;
    height: 5px;
    visibility: hidden;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Image10
 {
@@ -579,7 +712,8 @@ input:focus, textarea:focus, select:focus
    top: 11px;
    width: 92px;
    height: 52px;
-   z-index: 16;
+   visibility: hidden;
+   z-index: 15;
 }
 #wb_Text1
 {
@@ -588,12 +722,7 @@ input:focus, textarea:focus, select:focus
    top: 719px;
    width: 267px;
    height: 46px;
-   z-index: 11;
-}
-#Shape1
-{
-   width: 320px;
-   height: 75px;
+   z-index: 10;
 }
 #wb_Shape5
 {
@@ -609,6 +738,15 @@ input:focus, textarea:focus, select:focus
    width: 481px;
    height: 75px;
 }
+#wb_Image1
+{
+   position: absolute;
+   left: 51px;
+   top: 11px;
+   width: 92px;
+   height: 52px;
+   z-index: 19;
+}
 #Shape3
 {
    width: 185px;
@@ -622,7 +760,7 @@ input:focus, textarea:focus, select:focus
    width: 956px;
    height: 72px;
    text-align: center;
-   z-index: 6;
+   z-index: 5;
 }
 #Shape4
 {
@@ -636,7 +774,7 @@ input:focus, textarea:focus, select:focus
    top: 113px;
    width: 707px;
    height: 375px;
-   z-index: 4;
+   z-index: 3;
 }
 #wb_Text5
 {
@@ -646,7 +784,7 @@ input:focus, textarea:focus, select:focus
    width: 635px;
    height: 72px;
    text-align: center;
-   z-index: 7;
+   z-index: 6;
 }
 #wb_Image3
 {
@@ -655,7 +793,7 @@ input:focus, textarea:focus, select:focus
    top: 113px;
    width: 1070px;
    height: 585px;
-   z-index: 3;
+   z-index: 2;
 }
 #Shape5
 {
@@ -669,7 +807,7 @@ input:focus, textarea:focus, select:focus
    top: 499px;
    width: 707px;
    height: 199px;
-   z-index: 5;
+   z-index: 4;
 }
 #wb_Text7
 {
@@ -678,7 +816,7 @@ input:focus, textarea:focus, select:focus
    top: 561px;
    width: 267px;
    height: 88px;
-   z-index: 9;
+   z-index: 8;
 }
 #wb_Image5
 {
@@ -687,7 +825,7 @@ input:focus, textarea:focus, select:focus
    top: 554px;
    width: 155px;
    height: 88px;
-   z-index: 8;
+   z-index: 7;
 }
 #wb_Image6
 {
@@ -696,7 +834,7 @@ input:focus, textarea:focus, select:focus
    top: 768px;
    width: 430px;
    height: 200px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_Image7
 {
@@ -705,7 +843,18 @@ input:focus, textarea:focus, select:focus
    top: 768px;
    width: 430px;
    height: 200px;
-   z-index: 13;
+   z-index: 12;
+}
+#wb_PanelMenu1
+{
+   position: absolute;
+   left: 970px;
+   top: 41px;
+   width: 70px;
+   height: 70px;
+   visibility: hidden;
+   text-align: center;
+   z-index: 18;
 }
 #wb_Image8
 {
@@ -714,7 +863,7 @@ input:focus, textarea:focus, select:focus
    top: 768px;
    width: 430px;
    height: 200px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Image9
 {
@@ -723,26 +872,16 @@ input:focus, textarea:focus, select:focus
    top: 768px;
    width: 430px;
    height: 200px;
-   z-index: 15;
+   z-index: 14;
 }
 #wb_MenuBar1
 {
    position: absolute;
-   left: 1014px;
-   top: 8px;
-   width: 851px;
-   height: 59px;
-   z-index: 18;
-}
-#wb_Shape1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 320px;
-   height: 75px;
-   visibility: hidden;
-   z-index: 2;
+   left: 1165px;
+   top: 14px;
+   width: 695px;
+   height: 46px;
+   z-index: 17;
 }
 #wb_Shape2
 {
@@ -761,7 +900,7 @@ input:focus, textarea:focus, select:focus
    top: 753px;
    width: 185px;
    height: 6px;
-   z-index: 10;
+   z-index: 9;
 }
 @media only screen and (max-width: 969px)
 {
@@ -779,14 +918,6 @@ body
    margin: 0;
 }
 #wb_Shape2
-{
-   left: 0px;
-   top: 0px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_Shape1
 {
    left: 0px;
    top: 0px;
@@ -974,5 +1105,77 @@ body
    visibility: hidden;
    display: none;
    margin: 0;
+}
+#wb_PanelMenu1
+{
+   left: 15px;
+   top: 8px;
+   width: 53px;
+   height: 53px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#PanelMenu1
+{
+   line-height: 53px;
+   width: 3px;
+   height: 53px;
+}
+#PanelMenu1 .line:first-child
+{
+   margin-top: 1px;
+}
+#PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 0px solid #2E2E2E;
+   background-color: #000000;
+   font-family: "Mont Heavy DEMO";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a
+{
+   color: #F7F7F7;
+   border: 1px solid #000000;
+   border-radius: 0px;
+   background-color: #000000;
+   font-family: "Mont Heavy DEMO";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+}
+#PanelMenu1_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 0px solid #2E2E2E;
+}
+#wb_PanelMenu1 a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 1px solid #000000;
+}
+#PanelMenu1_panel
+{
+   background-color: #000000;
+   overflow-y: auto;
+}
+#wb_Image1
+{
+   left: 51px;
+   top: 11px;
+   width: 92px;
+   height: 52px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+   padding: 0;
 }
 }
