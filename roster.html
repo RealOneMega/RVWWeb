@@ -5,8 +5,11 @@
 <title>Untitled Page</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="RVW1240.png" rel="icon" sizes="1240x1240" type="image/png">
+<link href="RVW1240.png" rel="icon" sizes="1240x1240" type="image/png">
+<link href="RVW1240.png" rel="apple-touch-icon" sizes="1240x1240">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="Untitled1.css" rel="stylesheet">
+<link href="RVWNewWebsite.css" rel="stylesheet">
 <link href="roster.css" rel="stylesheet">
 <script src="jscookmenu.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
@@ -42,6 +45,11 @@ document.addEventListener('DOMContentLoaded', function(event)
 $(document).ready(function()
 {
    $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true});
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
 });
 </script>
 </head>
@@ -82,5 +90,6 @@ $(document).ready(function()
 </ul>
 </div>
 </div>
+<div id="preloader"></div>
 </body>
 </html>

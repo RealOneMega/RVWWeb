@@ -40,40 +40,10 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    z-index: 99999;
 }
-#wb_Image2
-{
-   vertical-align: top;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Shape5
 {
    border-width: 0;
    vertical-align: top;
-}
-#wb_Image10
-{
-   vertical-align: top;
-}
-#Image10
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #MenuBar1
 {
@@ -390,16 +360,90 @@ input:focus, textarea:focus, select:focus
 {
    z-index: 1111 !important;
 }
-#Shape2
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_Image1
 {
    vertical-align: top;
 }
 #Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: none;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Image10
+{
+   vertical-align: top;
+}
+#Image10
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -533,21 +577,6 @@ input:focus, textarea:focus, select:focus
    height: auto;
    max-width: 100%;
 }
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Image10
 {
    position: absolute;
@@ -555,7 +584,18 @@ input:focus, textarea:focus, select:focus
    top: 11px;
    width: 92px;
    height: 52px;
-   z-index: 2;
+   visibility: hidden;
+   z-index: 8;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 824px;
+   top: 350px;
+   width: 249px;
+   height: 66px;
+   text-align: center;
+   z-index: 5;
 }
 #wb_Shape5
 {
@@ -564,12 +604,21 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1920px;
    height: 75px;
-   z-index: 1;
+   z-index: 0;
 }
 #Shape2
 {
    width: 481px;
    height: 75px;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 51px;
+   top: 467px;
+   width: 1794px;
+   height: 619px;
+   z-index: 6;
 }
 #wb_Image1
 {
@@ -578,27 +627,25 @@ input:focus, textarea:focus, select:focus
    top: 11px;
    width: 92px;
    height: 52px;
-   visibility: hidden;
-   z-index: 5;
+   z-index: 2;
 }
 #wb_Image2
 {
    position: absolute;
    left: 0px;
-   top: 0px;
+   top: 75px;
    width: 1920px;
-   height: 1080px;
-   z-index: 0;
+   height: 360px;
+   z-index: 3;
 }
 #wb_Image3
 {
    position: absolute;
-   left: 0px;
-   top: 74px;
-   width: 481px;
-   height: 705px;
-   visibility: hidden;
-   z-index: 7;
+   left: 783px;
+   top: 91px;
+   width: 330px;
+   height: 259px;
+   z-index: 4;
 }
 #Shape5
 {
@@ -614,7 +661,7 @@ input:focus, textarea:focus, select:focus
    height: 70px;
    visibility: hidden;
    text-align: center;
-   z-index: 6;
+   z-index: 9;
 }
 #wb_MenuBar1
 {
@@ -623,7 +670,7 @@ input:focus, textarea:focus, select:focus
    top: 14px;
    width: 695px;
    height: 46px;
-   z-index: 3;
+   z-index: 1;
 }
 #wb_Shape2
 {
@@ -633,7 +680,7 @@ input:focus, textarea:focus, select:focus
    width: 481px;
    height: 75px;
    visibility: hidden;
-   z-index: 4;
+   z-index: 7;
 }
 @media only screen and (max-width: 969px)
 {
@@ -641,17 +688,6 @@ body
 {
    background-color: #FFFFFF;
    background-image: none;
-}
-#wb_Image2
-{
-   left: 0px;
-   top: 75px;
-   width: 480px;
-   height: 270px;
-   visibility: hidden;
-   display: none;
-   margin: 0;
-   padding: 0;
 }
 #wb_Shape5
 {
@@ -661,7 +697,17 @@ body
    display: none;
    margin: 0;
 }
-#wb_Image10
+#wb_MenuBar1
+{
+   left: 1165px;
+   top: 14px;
+   width: 695px;
+   height: 46px;
+   visibility: hidden;
+   display: none;
+   margin: 0;
+}
+#wb_Image1
 {
    left: 51px;
    top: 11px;
@@ -672,15 +718,55 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_MenuBar1
+#wb_Image2
 {
-   left: 1165px;
-   top: 14px;
-   width: 695px;
-   height: 46px;
-   visibility: hidden;
-   display: none;
+   left: 0px;
+   top: 75px;
+   width: 481px;
+   height: 360px;
+   visibility: visible;
+   display: inline;
    margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 76px;
+   top: 75px;
+   width: 300px;
+   height: 259px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   left: 102px;
+   top: 334px;
+   width: 249px;
+   height: 66px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 15px;
+   top: 449px;
+   width: 465px;
+   height: 722px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_Shape2
 {
@@ -690,7 +776,7 @@ body
    display: inline;
    margin: 0;
 }
-#wb_Image1
+#wb_Image10
 {
    left: 192px;
    top: 11px;
@@ -761,16 +847,5 @@ body
 {
    background-color: #000000;
    overflow-y: auto;
-}
-#wb_Image3
-{
-   left: 0px;
-   top: 74px;
-   width: 481px;
-   height: 705px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
 }
 }

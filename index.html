@@ -2,11 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Page</title>
-<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<title>Home</title>
+<meta name="author" content="RVW League">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="RVW1240.png" rel="icon" sizes="1240x1240" type="image/png">
+<link href="RVW1240.png" rel="icon" sizes="1240x1240" type="image/png">
+<link href="RVW1240.png" rel="apple-touch-icon" sizes="1240x1240">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="Untitled1.css" rel="stylesheet">
+<link href="RVWNewWebsite.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jscookmenu.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
@@ -42,6 +45,11 @@ document.addEventListener('DOMContentLoaded', function(event)
 $(document).ready(function()
 {
    $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true});
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
 });
 </script>
 </head>
@@ -69,13 +77,13 @@ $(document).ready(function()
 <div id="wb_Text1">
 <span style="color:#000000;font-family:'Mont Heavy DEMO';font-size:29px;line-height:40px;">PPV Results</span></div>
 <div id="wb_Image6">
-<img src="images/AmericanBloodIcon.png" id="Image6" alt="" width="430" height="200"></div>
+<a href="./results/2022/AmericanBlood.html"><img src="images/AmericanBloodIcon.png" id="Image6" alt="" width="430" height="200"></a></div>
 <div id="wb_Image7">
-<img src="images/PurgatoryIcon.png" id="Image7" alt="" width="430" height="200"></div>
+<a href="./results/2022/Purgatory.html"><img src="images/PurgatoryIcon.png" id="Image7" alt="" width="430" height="200"></a></div>
 <div id="wb_Image8">
-<img src="images/SummerSolsticeIcon.png" id="Image8" alt="" width="430" height="200"></div>
+<a href="./results/2022/SummerSolstice.html"><img src="images/SummerSolsticeIcon.png" id="Image8" alt="" width="430" height="200"></a></div>
 <div id="wb_Image9">
-<img src="images/Final4Icon.png" id="Image9" alt="" width="430" height="200"></div>
+<a href="./results/2022/Final4.html"><img src="images/Final4Icon.png" id="Image9" alt="" width="430" height="200"></a></div>
 <div id="wb_Image10">
 <a href="./index.html"><img src="images/RVWLogo.png" id="Image10" alt="" width="92" height="53"></a></div>
 <div id="wb_Shape4">
@@ -110,5 +118,6 @@ $(document).ready(function()
 </div>
 <div id="wb_Image1">
 <a href="./index.html"><img src="images/RVWLogo.png" id="Image1" alt="" width="92" height="53"></a></div>
+<div id="preloader"></div>
 </body>
 </html>
