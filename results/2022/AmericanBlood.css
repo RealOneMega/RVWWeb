@@ -31,15 +31,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#preloader
-{
-   background: #FFFFFF url("images/rolling-dots.gif") no-repeat center center;
-   bottom: 0;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 99999;
-}
 #Shape5
 {
    border-width: 0;
@@ -731,9 +722,9 @@ body
 }
 #wb_Image3
 {
-   left: 76px;
+   left: 51px;
    top: 75px;
-   width: 300px;
+   width: 350px;
    height: 259px;
    visibility: visible;
    display: inline;
